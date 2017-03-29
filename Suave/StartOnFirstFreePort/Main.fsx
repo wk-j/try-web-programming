@@ -2,8 +2,6 @@
 
 // http://fssnip.net/7Po/title/Start-Suave-server-on-first-free-port
 
-// Not working
-
 open Suave
 open System
 
