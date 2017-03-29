@@ -1,0 +1,7 @@
+{
+    "name": "try-web-programming",
+    "scripts": {
+        "ls": "ls -al",
+        "stop-all": "docker stop $(docker ps -a -q)"
+    }
+}
