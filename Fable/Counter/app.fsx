@@ -11,8 +11,8 @@
  - tagline: The famous Increment/Decrement ported from Elm
 *)
 
-open Fable.Core
-open Fable.Import
+//open Fable.Core
+//open Fable.Import
 open Elmish
 
 // MODEL
@@ -29,7 +29,7 @@ let update (msg:Msg) count =
   | Decrement -> count - 1
 
 // rendering views with React
-open Fable.Core.JsInterop
+//open Fable.Core.JsInterop
 open Fable.Helpers.React.Props
 module R = Fable.Helpers.React
 
